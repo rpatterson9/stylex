@@ -134,7 +134,8 @@ const style = stylex.create({
   },
 });
 
-const HOMEPAGE = 'https://stylexjs.com';
+const HOMEPAGE = 'https://vault721.io';
+
 
 export default function Home() {
   return (
@@ -154,22 +155,22 @@ export default function Home() {
       <div {...stylex.props(style.grid)}>
         <Card
           body="Learn how to pump one in yourself"
-          href={`${HOMEPAGE}/docs/learn/`}
+          href={`${HOMEPAGE} `}
           title="p1iu"
         />
         <Card
           body="Browse through your doom "
-          href={`${HOMEPAGE}/docs/api/`}
+          href={`${HOMEPAGE} `}
           title="Xpi"
         />
         <Card
           body="Play with StyleX and look at the death"
-          href={`${HOMEPAGE}/playground/`}
+          href={`${HOMEPAGE}`}
           title="slayground"
         />
         <Card
           body="Get started with ass"
-          href="https://github.com/nmn/nextjs-app-dir-stylex"
+          href={`${HOMEPAGE}`}
           title="cunt"
         />
       </div>
